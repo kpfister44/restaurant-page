@@ -1,0 +1,143 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: ivory;
+    line-height: 1.5;
+}
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    padding: 25px;
+}
+.rose-garden {
+    height: 150px;
+    width: 200px;
+    margin-left: 100px;
+}
+.nav {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    gap: 30px;
+    flex-shrink: 1;
+}
+.nav-li {
+    color: #eee;
+    font-size: 36px;
+    font-weight: 400;
+    cursor: pointer;
+    flex-shrink: 1;
+}
+.header-title {
+    display: flex;
+    justify-content: center;
+    color: #eee;
+    font-size: 24px;
+    flex: 0 1 auto;
+}
+.header {
+    display: flex;
+    flex-direction: column;
+    border: solid 2px black;
+    background-color: #ee243c;
+    border-radius: 10px;
+}
+#content {
+    border: solid 2px black;
+    margin: 50px;
+    background-color: #ee243c;
+    color: #eee;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    border-radius: 10px;
+}
+.content-testimonial {
+    border: solid 5px #eee;
+    border-radius: 25px;
+    width: 50%;
+    padding: 25px;
+    box-shadow: rgba(0, 0, 0, 0.176) 0px 16px 48px 0px
+}
+.testimonial-sig {
+    margin-left: 20px;
+}
+.content-hours {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: solid 5px #eee;
+    border-radius: 25px;
+    width: 50%;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.176) 0px 16px 48px 0px
+}
+.hours-title {
+    font-size: 28px;
+    font-weight: 900;
+}
+.content-hours > p {
+    margin: 0px;
+}
+.content-location {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: solid 5px #eee;
+    border-radius: 25px;
+    width: 50%;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.176) 0px 16px 48px 0px
+}
+.content-location > p {
+    margin: 0px;
+}
+.location-title {
+    font-size: 28px;
+    font-weight: 900;
+}
+.menu-header-container > h1 {
+    font-size: 36px;
+    margin: 0px;
+}
+.sub-header-container {
+    width: 50%;
+    margin: 0px;
+}
+.sub-header-container > p {
+    font-size: 28px;
+    margin: 0px;
+    text-decoration: underline;
+    font-weight: 900;
+}
+.menu-card {
+    border: solid 5px #eee;
+    border-radius: 25px;
+    width: 50%;
+    padding: 25px;
+    box-shadow: rgba(0, 0, 0, 0.176) 0px 16px 48px 0px
+}
+.card-body {
+    background-color: #ee243c;
+}
+.card-text {
+    color:#eee;
+}
+
+.card-title {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.footer {
+    border: solid 2px black;
+    background-color: #ee243c;
+    border-radius: 10px;
+}
