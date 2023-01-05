@@ -1,0 +1,30 @@
+{
+  "name": "ls",
+  "version": "1.0.0",
+  "description": "Simple restaurant webpage template",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --watch",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kpfister44/restaurant-page.git"
+  },
+  "author": "Kyle Pfister",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/kpfister44/restaurant-page/issues"
+  },
+  "homepage": "https://github.com/kpfister44/restaurant-page#readme",
+  "devDependencies": {
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "jquery": "^3.6.3",
+    "popper.js": "^1.16.1"
+  }
+}
